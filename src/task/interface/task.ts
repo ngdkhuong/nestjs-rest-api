@@ -1,8 +1,8 @@
 export interface Task {
-  uuid: string;
+  uuid?: string;
   name: string;
-  completed: boolean;
-  description: string;
-  owner: string;
-  duration: number;
+  completed?: boolean;
+  description?: string;
+  owner?: string;
+  duration?: number;
 }
